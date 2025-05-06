@@ -6,7 +6,8 @@ export default defineConfig({
 	plugins: [react()],
 	server: {
 		proxy: {
-			"/api/files": "http://localhost:5600",
+			"/api/files": "https://filesharebe.onrender.com",
+			// "/api/files": "http://localhost:5600",
 		},
 	},
 });
